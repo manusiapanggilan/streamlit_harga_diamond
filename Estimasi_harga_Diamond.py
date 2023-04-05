@@ -6,7 +6,7 @@ image = Image.open('Diamond.jpg')
 
 st.image(image, caption=' ')
 
-diamond_model = pickle.load(open('Estimasi_harga_diamond.sav','rb'))
+diamond_model = pickle.load(open('estimasi_harga_diamond.sav','rb'))
 
 st.title('Estimasi Harga Diamond')
 st.caption(' Muhammad Ziyan Marzuqi | 191351178')
